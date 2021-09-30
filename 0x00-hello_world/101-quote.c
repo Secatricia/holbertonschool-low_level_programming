@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char chaine[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int i = 0;
 
-for (i = 0; i < 59; i++)
+for (i = 0; i < 61; i++)
 {
-	putchar(chaine[i]);
+	putchar(ch[i]);
 }
 	return (0);
 
