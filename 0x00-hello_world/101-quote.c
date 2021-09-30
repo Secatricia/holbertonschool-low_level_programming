@@ -12,6 +12,6 @@ for (i = 0; i < 59; i++)
 {
 	putchar(ch[i]);
 }
-	return (0);
+	return (1);
 
 }
