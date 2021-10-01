@@ -16,8 +16,6 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			j++;
-
 
 
 			if (i < 56)
@@ -25,7 +23,7 @@ int main(void)
 				putchar(44);
 				putchar(' ');
 			}
-
+			j++;
 
 		}
 		i++;
