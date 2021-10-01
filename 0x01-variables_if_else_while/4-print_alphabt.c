@@ -7,9 +7,13 @@
  */
 int main(void)
 {
-	char lettre[] = "ABCDFGHIJKLMNOPRSTUVWXYZ";
+	int lettre = 97;
 
-	putchar(lettre);
+	while (lettre < 123)
+	{
+		putchar(lettre);
+		lettre++;
+	}
 
 	putchar('\n');
 	return (0);
