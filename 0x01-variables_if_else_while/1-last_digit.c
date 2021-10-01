@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (nombre == 0)
 	{
-		printf("%n and is 0", n);
+		printf("%d and is 0", n);
 	}
 	else
 	{
