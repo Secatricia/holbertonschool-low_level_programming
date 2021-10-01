@@ -14,9 +14,10 @@ int main(void)
 		putchar(nombre);
 		if (nombre < 57)
 		{
+			putchar(44);
 			putchar(' ');
-			nombre++;
 		}
+		nombre++;
 	}
 	putchar ('\n');
 	return (0);
