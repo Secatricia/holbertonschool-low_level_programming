@@ -30,10 +30,15 @@ int main(void)
 
 			k = j + 1;
 			j++;
-		}
-		i++;
-		j = i + 1;
+			if (j == k)
+			{
+				k++;
+			}
 
+		}
+
+		j = i + 1;
+		i++;
 	}
 	putchar ('\n');
 	return (0);
