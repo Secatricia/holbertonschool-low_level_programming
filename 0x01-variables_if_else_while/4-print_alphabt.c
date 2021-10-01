@@ -7,12 +7,15 @@
  */
 int main(void)
 {
-	int lettre = 97;
+	int l = 97;
 
-	while (lettre < 123)
+	while (l < 123)
 	{
-		putchar(lettre);
-		lettre++;
+		if (l != 101 && l != 113)
+		{
+			putchar(l);
+		}
+		l++;
 	}
 
 	putchar('\n');
