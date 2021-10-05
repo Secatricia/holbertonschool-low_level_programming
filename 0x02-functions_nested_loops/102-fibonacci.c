@@ -13,15 +13,15 @@ int i = 0;
 int b = 1;
 int a = 1;
 
-    printf("%d", b);
+	printf("%d", b);
 while (i < 100)
 {
-    printf("%d ,", a);
-    a += b;
-    printf("%d", a);
-    b += a;
-    printf("%d", b);
-    i++;
+	printf("%d ,", a);
+	a += b;
+	printf("%d", a);
+	b += a;
+	printf("%d", b);
+	i++;
 }
 printf("%d\n", b);
 
