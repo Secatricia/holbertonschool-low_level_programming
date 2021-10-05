@@ -12,15 +12,16 @@ int main(void)
 int i = 0;
 int b = 1;
 int a = 1;
+int c = 1;
 
     printf("%d", b);
 while (i < 100)
 {
-    printf("%d ,", a);
-    a += b;
+    printf("%d ,", c);
+    c = a + b;
     i++;
 }
-printf("%d\n", a);
+printf("%d\n", c);
 
 	return (0);
 }
