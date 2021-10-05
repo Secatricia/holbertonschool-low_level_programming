@@ -16,7 +16,6 @@ int a = 1;
 	printf("%d", b);
 while (i < 100)
 {
-	printf("%d ,", a);
 	a += b;
 	printf("%d ,", a);
 	b += a;
