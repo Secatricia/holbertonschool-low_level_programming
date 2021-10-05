@@ -1,29 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - addition somme multiple
+ * main - suite de fibonacci
  *
  * Return: 0
  */
-
+ 
 int main(void)
 {
 
 int i = 0;
-int b = 1;
-int a = 1;
+long int fib1 = 0;
+long int fib2 = 1;
+long int c = 1;
 
-	printf("%d, ", b);
-while (i < 25)
+while (i < 50)
 {
-	a += b;
-	printf("%d, ", a);
-	b += a;
-	printf("%d, ", b);
+	c = fib1 + fib2;
+	fib1 = fib2;
+	fib2 = c;
+	printf("%ld", c);
 	i++;
+	if (i != 50)
+		printf(", ");
 }
-printf("%d\n", b);
+printf("\n");
 
 	return (0);
 }
- 
