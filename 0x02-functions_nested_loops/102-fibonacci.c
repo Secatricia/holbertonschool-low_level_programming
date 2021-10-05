@@ -18,9 +18,9 @@ while (i < 100)
 {
 	printf("%d ,", a);
 	a += b;
-	printf("%d", a);
+	printf("%d ,", a);
 	b += a;
-	printf("%d", b);
+	printf("%d ,", b);
 	i++;
 }
 printf("%d\n", b);
