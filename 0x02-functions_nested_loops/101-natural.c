@@ -1,21 +1,24 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_times_table - table de multiplication en fonction de n
+ * main - addition somme multiple
  *
- * @n: variable
+ * Return: 0 
  */
+
 int main(void)
 {
-	int n = 0;
-	int v = 0;
-	while (n <= 1024)
-	{
-		if (n % 3 == 0 || n % 5 == 0)
-		{
-			v = v + n;
-		}
-		n++;
-	}
+
+int i = 0;
+int c = 0;
+
+while (i < 1024)
+{
+	if (i % 3 == 0 || i % 5 == 0)
+		c += i;
+	i++;
+}
+printf("%d\n", c);
+
 	return (0);
 }
