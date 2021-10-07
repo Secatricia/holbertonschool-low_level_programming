@@ -10,11 +10,13 @@ int main(void)
 {
 	int a = 1;
 	int i = 0;
+
 	printf("%d", a);
+
 	while (i < 99)
 	{
-			i++;
-			a++;
+		i++;
+		a++;
 		printf(" ");
 		if (a % 5 != 0 && a % 3 != 0)
 		{
@@ -32,8 +34,7 @@ int main(void)
 		{
 			printf("Fizz");
 		}
-
-
 	}
+	printf("\n");
 	return (0);
 }
