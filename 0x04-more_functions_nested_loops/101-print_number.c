@@ -1,39 +1,37 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_number - afficher un nombre entier
+ * print_number - afficher des nombres entiers
  *
- *@n: variable
+ * @n: number to print
  */
+
 void print_number(int n)
 {
-	unsigned int num = n;
 
-	if (n < 0)
-		num = -n, _putchar('-');
+	unsigned int i = 0, j = 1;
+	unsigned int number_in_n;
+
+	if (n == 0)
+		_putchar(48);
 	else
-		num = n;
-	if (num >= 10000 && num <= 32767)
 	{
-		_putchar((num / 10000) + 48), _putchar(((num / 1000) % 10) + 48);
-		_putchar(((num / 100) % 10) + 48), _putchar(((num / 10) % 10) + 48);
-		_putchar((num % 10) + 48);
+		if (n < 0)
+			_putchar('-'), n = -n, number_in_n = n;
+		while (number_in_n > 0)
+		{
+			number_in_n = number_in_n / 10;
+			i++;
+		}
+		while (i > 1)
+		{
+			j = j * 10;
+			i--;
+		}
+		while (j > 0)
+		{
+			_putchar((n / j) % 10 + 48);
+			j = j / 10;
+		}
 	}
-	else if (num >= 1000 && n <= 9999)
-	{
-		_putchar((num / 1000) + 48), _putchar(((num / 100) % 10) + 48);
-		_putchar(((num / 10) % 10) + 48), _putchar((num % 10) + 48);
-	}
-	else if (num >= 100 && num <= 999)
-	{
-		_putchar((num / 100) + 48), _putchar(((num / 10) % 10) + 48);
-		_putchar((num % 10) + 48);
-	}
-	else if (num >= 10 && num <= 99)
-	{
-		_putchar((num / 10) + 48), _putchar((num % 10) + 48);
-	}
-	else if (num < 10)
-		_putchar(num + 48);
 }
