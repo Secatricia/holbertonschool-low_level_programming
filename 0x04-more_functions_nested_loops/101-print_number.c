@@ -8,12 +8,12 @@
  */
 void print_number(int n)
 {
-	long int num = n;
+	unsigned int num = n;
 
-	if (num < 0)
-	{
-		num = -num, _putchar('-');
-	}
+	if (n < 0)
+		num = -n, _putchar('-');
+	else
+		num = n;
 	if (num >= 10000 && num <= 32767)
 	{
 		_putchar((num / 10000) + 48), _putchar(((num / 1000) % 10) + 48);
@@ -34,7 +34,6 @@ void print_number(int n)
 	{
 		_putchar((num / 10) + 48), _putchar((num % 10) + 48);
 	}
-	else if (num < 10 && num >= 0)
-	{
+	else if (num < 10)
 		_putchar(num + 48);
-}}
+}
