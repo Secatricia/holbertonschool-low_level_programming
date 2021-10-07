@@ -10,27 +10,30 @@ int main(void)
 {
 	int a = 1;
 	int i = 0;
-
-	while (i < 100)
+	printf("%d", a);
+	while (i < 99)
 	{
+			i++;
+			a++;
+		printf(" ");
 		if (a % 5 != 0 && a % 3 != 0)
 		{
-			printf("%d ", a);
+			printf("%d", a);
 		}
 		else if (a % 5 == 0 && a % 3 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (a % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if (a % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
-		a++;
-		i++;
+
+
 	}
 	return (0);
 }
