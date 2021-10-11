@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code for
- *
- * Return: Always 0.
+ * print_array - Affiche un tableau
+ * @n: variable
+ * @a: variable
  */
 void print_array(int *a, int n)
 {
