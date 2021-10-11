@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - Parcour une chaine de 2 en 2
+ * puts_half - Afficher la derniere moitier d'un chaine
  *
  * @str: variable
  */
@@ -24,7 +24,7 @@ void puts_half(char *str)
 	}
 
 	for (; str[n] != '\0'; n++)
-	{ 
+	{
 		_putchar(str[n]);
 	}
 	_putchar('\n');
