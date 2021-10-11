@@ -2,18 +2,16 @@
 #include <stdio.h>
 
 /**
- * _strlen - Compte le nombre de caractere d'une chaine
+ * _puts - Affiche une chaine
  *
- * @s: variable
- *
- * Return: (i)
+ * @str: variable
  */
 void _puts(char *str)
 {
 	while (*str != '\0')
 	{
-        _putchar(*str);
+		_putchar(*str);
 		str++;
-    }
-    _putchar('\n');
+	}
+	_putchar('\n');
 }
