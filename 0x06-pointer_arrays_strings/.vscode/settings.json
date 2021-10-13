@@ -16,6 +16,7 @@
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "files.associations": {
-    "main.h": "c"
+    "main.h": "c",
+    "3-strcmp.C": "cpp"
   }
 }
