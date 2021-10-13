@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - concatener
+ * _strcat - concatene
  * @src: variable
  * @dest: variable
  * Return: (dest)
