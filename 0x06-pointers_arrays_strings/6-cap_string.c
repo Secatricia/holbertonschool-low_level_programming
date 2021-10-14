@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * string_toupper - Transforme les premiere lettre minuscule en majuscule
+ * cap_string - Transforme les premiere lettre minuscule en majuscule
  * @n: variable
  * Return: (n)
  */
