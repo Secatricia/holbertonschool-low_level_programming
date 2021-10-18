@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - Write a function that searches
+ * _strstr - Ecrire une fonction qui localise une sous-chaîne.
  * a string for any of a set of bytes.
- * @s: variable
- * @accept: variable
- * Return: Always 0.
+ * @haystack: variable
+ * @needle: variable
+ * Return: (0) ou (haystack + i)
  */
 char *_strstr(char *haystack, char *needle)
 {
