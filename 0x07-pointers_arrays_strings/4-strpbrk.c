@@ -10,7 +10,7 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
+	int i = 0, j = 0;
 
 	for (i = 0; s[i]; i++)
 	{
@@ -23,12 +23,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		}
 	}
-	if (s[i] == accept[j])
-	{
-		return (s + i);
-	}
-	else
-	{
 		return (0);
-	}
 }
