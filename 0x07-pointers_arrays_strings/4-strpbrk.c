@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - Write a function that searches a string for any of a set of bytes.
- *
+ * _strpbrk - Write a function that searches
+ * a string for any of a set of bytes.
+ * @s: variable
+ * @accept: variable
  * Return: Always 0.
  */
 char *_strpbrk(char *s, char *accept)
