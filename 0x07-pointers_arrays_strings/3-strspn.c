@@ -20,13 +20,13 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			continue;
 		}
-		if (accept[j] != s[i])
+		if (accept[j] == s[i])
 		{
 			k += 1;
 		}
-		else if (k < 0)
+		else
 		{
-			return (0);
+			return (k);
 		}
 	}
 	return (k);
