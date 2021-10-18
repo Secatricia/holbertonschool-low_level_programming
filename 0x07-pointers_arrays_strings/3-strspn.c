@@ -24,6 +24,10 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			k += 1;
 		}
+		else if (k < 0)
+		{
+			return (0);
+		}
 	}
 	return (k);
 }
