@@ -19,6 +19,7 @@ int is_prime_number(int n)
  * test_number - Write a function that returns 1
  * if the input integer is a prime number, otherwise return 0.
  * @n: variable
+ * @t: variable
  * Return: Always 0.
  */
 int test_number(int n, int t)
