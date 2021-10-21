@@ -17,7 +17,7 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int is_palindrome(char *s);
 int yes_or_no(char *s, int i, int j);
-int strlen(char *s);
+int strlenp(char *s);
 
 
 #endif /*MAIN_H*/

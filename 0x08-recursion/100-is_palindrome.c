@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 	int i;
 	int j = 0;
 
-	i = strlen(s) - 1;
+	i = strlenp(s) - 1;
 	return (yes_or_no(s, i, j));
 }
 
@@ -46,16 +46,16 @@ int yes_or_no(char *s, int i, int j)
 }
 
 /**
- * strlen - function that says the length of a string
+ * strlenp - function that says the length of a string
  * @s: string to print
  * Return: ((1 + _strlen_recursion(s + 1)) ou 0)
  */
 
-int strlen(char *s)
+int strlenp(char *s)
 {
 	if (*s)
 	{
-		return (1 + strlen(s + 1));
+		return (1 + strlenp(s + 1));
 	}
 	else
 	{
