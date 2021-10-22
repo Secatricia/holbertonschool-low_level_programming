@@ -1,8 +1,16 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+/**
+ * main - entry point of the program
+ * @argc: length of argv table
+ * @argv: table containing program name and argments
+ *
+ * Return: always 0 (Success)
+ */
+
+int		main(int argc, char **argv)
 {
-	printf("%d\n", argc);
 	(void)argv;
-	return (argc);
+	printf("%d\n", argc - 1);
+	return (0);
 }
