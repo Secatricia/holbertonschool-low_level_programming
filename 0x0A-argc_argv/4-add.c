@@ -4,6 +4,7 @@
 /**
  * main - Write a program that multiplies two numbers.
  * @argv: variable
+ * @argc: variable
  * Return: (0)
  */
 int main(int argc, char *argv[])
