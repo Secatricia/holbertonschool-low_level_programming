@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 			}
 		}
 		somme += atoi(argv[i]);
-		j++;
+		i++;
 	}
 	printf("%d\n", somme);
 
