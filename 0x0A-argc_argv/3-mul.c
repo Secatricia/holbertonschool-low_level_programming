@@ -4,6 +4,7 @@
 /**
  * main - Write a program that multiplies two numbers.
  * @argv: variable
+ * @argc: variable
  * Return: (0)
  */
 int main(int argc, char *argv[])
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	else
