@@ -1,1 +1,1 @@
-Exercices librairies
+Exercices librairies statiques
