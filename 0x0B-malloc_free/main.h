@@ -10,6 +10,7 @@ int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
+char *_strcat(char *dest, char *src);
 
 
 #endif /*MAIN_H*/
