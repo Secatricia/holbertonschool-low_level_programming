@@ -58,7 +58,7 @@ char *_strdup(char *str)
 
 	point = malloc(sizeof(char) * _strlen(str) + 1);
 
-	if (point == NULL)
+	if (point == NULL || str == NULL)
 	{
 		return (NULL);
 	}
