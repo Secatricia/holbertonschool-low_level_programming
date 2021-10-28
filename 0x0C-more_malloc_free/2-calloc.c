@@ -8,6 +8,7 @@
  * using malloc
  * @nmemb: variable
  * @size: variable
+ * Return: (NULL or a)
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -19,7 +20,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	a = malloc(nmemb * size);
+	a = (char *) malloc(nmemb * size);
 
 	if (a == NULL)
 	{
