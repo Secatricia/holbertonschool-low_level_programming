@@ -30,7 +30,7 @@ int _strlen(char *s)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i;
+	int i;
 	unsigned int j;
 	char *str;
 
@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0 ; s1[i] != '\0'; i++)
+	for (i = 0 ; i < _strlen(s1); i++)
 	{
 		str[i] = s1[i];
 	}
