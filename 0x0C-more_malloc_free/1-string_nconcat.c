@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, strlens1, strlens2;
 	char *str;
-	
+
 	strlens1 = s1 == NULL ? 0 : _strlen(s1);
 	strlens2 = s2 == NULL ? 0 : _strlen(s2);
 	strlens2 = n >= strlens2 ? strlens2 : n;
