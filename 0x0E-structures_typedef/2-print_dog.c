@@ -3,11 +3,8 @@
 #include <stdlib.h>
 
 /**
- * init_dog - Description chien
+ * print_dog - Description chien
  * @d: pointeur sur struct dog
- * @name: premier membre
- * @age: deuxième membre
- * @owner: troisième membre
  */
 void print_dog(struct dog *d)
 {
