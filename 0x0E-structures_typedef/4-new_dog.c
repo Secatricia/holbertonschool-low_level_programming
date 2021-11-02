@@ -3,9 +3,11 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * new_dog - Nouveau chien
+ * @name: variable
+ * @age: variable
+ * @owner: variable
+ * Return: (NULL ou p)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
