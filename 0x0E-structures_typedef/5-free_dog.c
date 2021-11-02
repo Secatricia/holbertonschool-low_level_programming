@@ -3,9 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * free_dog - free dog
+ * @d: pointeur
  */
 void free_dog(dog_t *d)
 {
