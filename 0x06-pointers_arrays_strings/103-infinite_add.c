@@ -11,4 +11,11 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
+	int i = 0;
+	int j = 0;
+	
+	while(i <= size_r || j <= size_r)
+	{
+
+	}
 }

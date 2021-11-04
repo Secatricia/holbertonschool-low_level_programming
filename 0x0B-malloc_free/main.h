@@ -11,6 +11,7 @@ void free_grid(int **grid, int height);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 char *_strcat(char *dest, char *src);
+char *argstostr(int ac, char **av);
 
 
 #endif /*MAIN_H*/
