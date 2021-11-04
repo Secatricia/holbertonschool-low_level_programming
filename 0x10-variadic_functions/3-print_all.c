@@ -43,7 +43,7 @@ void print_all(const char * const format, ...)
 /**
  * print_char - Print a character
  *
- * @listFormat: The va_list we want to print
+ * @args: The va_list we want to print
  */
 void print_char(va_list args)
 {
@@ -53,7 +53,7 @@ void print_char(va_list args)
 /**
  * print_integer - Print a integer
  *
- * @listFormat: The va_list we want to print
+ * @args: The va_list we want to print
  */
 void print_integer(va_list args)
 {
@@ -63,7 +63,7 @@ void print_integer(va_list args)
 /**
  * print_float - Print a float
  *
- * @listFormat: The va_list we want to print
+ * @args: The va_list we want to print
  */
 void print_float(va_list args)
 {
@@ -73,7 +73,7 @@ void print_float(va_list args)
 /**
  * print_string - Print a string
  *
- * @listFormat: The va_list we want to print
+ * @args: The va_list we want to print
  */
 void print_string(va_list args)
 {
