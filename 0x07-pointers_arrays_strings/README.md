@@ -1,1 +1,1 @@
-Exercice sur les tableaux à 2 dimentions et les pointeurs de pointeurs
+Exercices sur les tableaux à 2 dimentions et les pointeurs de pointeurs
