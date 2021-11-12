@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
- * add_node - function that adds a new node at
- * the beginning of a list_t list
+ * add_node_end - function that adds a
+ * new node at the end of a list_t list.
  * @head: pointeur vers la premiere node
  * @str: parametre à ajouter
  * Return: (NULL ou new_list)
@@ -41,14 +41,13 @@ list_t *add_node_end(list_t **head, const char *str)
 * _strlen - check the code
 * @s: parametre
 * Return: (i)
-
 */
 
 int _strlen(const char *s)
 {
 	int i;
 
-	for (i = 0 ; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		continue;
 	}
