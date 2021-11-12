@@ -8,7 +8,7 @@
  * the beginning of a list_t list
  * @head: pointeur vers la premiere node
  * @str: parametre à ajouter
- * Return: nb_node
+ * Return: (head)
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -31,8 +31,8 @@ list_t *add_node(list_t **head, const char *str)
 
 /**
 * _strlen - check the length of the string
-* Return: length of the string
-* @s: string
+* @s: parametre
+* Return: (i)
 */
 
 int _strlen(const char *s)
