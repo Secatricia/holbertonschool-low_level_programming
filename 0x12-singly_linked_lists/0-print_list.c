@@ -7,7 +7,7 @@
 /**
  * print_list - check the code
  * @h: parametre
- * Return: Always 0.
+ * Return: nb_node
  */
 
 size_t print_list(const list_t *h)
