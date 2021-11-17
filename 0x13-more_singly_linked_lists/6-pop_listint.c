@@ -14,11 +14,10 @@ int pop_listint(listint_t **head)
 	int valeurn;
 
 	tmp = (*head);
-	(*head) = tmp-> next;
+	(*head) = tmp->next;
 
 	valeurn = tmp->n;
 
 	free(tmp);
 	return (valeurn);
-
 }
