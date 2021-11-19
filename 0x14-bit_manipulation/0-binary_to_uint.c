@@ -11,23 +11,20 @@ unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int j = 0;
-	const char *chaine = b;
 
 	if (b == NULL)
 		return (0);
 
-	for (i = 0; chaine[i]; i++)
+	for (i = 0; *(b + i) != '\0'; i++)
 	{
-		;
-	}
-	i--;
-	while (i >= 0)
-	{
-		if (*b != 0 + 48 && *b != 1 + 48)
+		if (*(b + i) != '0' && *(b + i) != '1')
 			return (0);
-		j += ((*b - 48) * pow(2, i));
-		i--;
-		b++;
+
+		if (*(b + i) == '1')
+			j += 1;
+
+		if (*(b + i + 1) != '\0')
+			j *= 2;
 	}
 	return (j);
 }
