@@ -7,7 +7,7 @@
  * and prints it to the POSIX standard output
  * @filename: name of file
  * @letters: nb letters
- * Return: (0 or testRead)
+ * Return:	eE (0 or testRead)
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
