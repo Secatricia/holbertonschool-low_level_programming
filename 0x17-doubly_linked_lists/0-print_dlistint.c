@@ -5,7 +5,7 @@
 
 /**
  * print_dlistint - check the code
- *
+ * @h: head
  * Return: Always 0.
  */
 size_t print_dlistint(const dlistint_t *h)
