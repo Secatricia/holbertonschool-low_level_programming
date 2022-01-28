@@ -29,7 +29,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	while (a < size)
 	{
-		(*hash).array[a] = NULL;
+		hash->array[a] = NULL;
 		a++;
 	}
 	return (hash);
