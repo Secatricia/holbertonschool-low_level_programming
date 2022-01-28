@@ -35,6 +35,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			return (1);
 		}
 		array_idx = array_idx->next;
+		index += 1;
 	}
 	node->key = strdup(key);
 	node->value = strdup(value);
