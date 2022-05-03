@@ -1,0 +1,21 @@
+a {
+	size_t i = 0;
+	size_t n_size = size;
+
+	if (array)
+	{
+		for (i = size/2; i != array[i] || array; i++)
+		{
+			i = size/2;
+			if (i < value)
+			{
+				size = n_size/2;
+				i = 0;
+			}
+			else
+			{
+				
+			}
+		}
+	}
+}
